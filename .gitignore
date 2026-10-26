@@ -1,0 +1,37 @@
+# deps / build
+node_modules/
+.next/
+out/
+dist/
+build/
+vendor/
+*.tsbuildinfo
+
+# env / secrets
+.env
+.env.*
+!.env.example
+!.env*.example
+
+# archives / OS / junk
+*.zip
+__MACOSX/
+.DS_Store
+Thumbs.db
+*.log
+
+# local deploy / probe junk
+_deploy_frontend/
+_vps_*.py
+_seed_*.php
+_cpanel_*.php
+_check_*.py
+_admin_login.json
+_login.json
+_acj.txt
+_cj.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
