@@ -7,11 +7,14 @@ build/
 vendor/
 *.tsbuildinfo
 
-# env / secrets
+# env — keep examples always; also track live env files (user requested)
 .env
 .env.*
 !.env.example
 !.env*.example
+!Backend/.env
+!Frontend/.env.local
+!baileys-worker/.env
 
 # archives / OS / junk
 *.zip
